@@ -231,6 +231,9 @@ namespace Unity.FPS.Game
             {
                 GetComponent<Animator>().SetTrigger("Reload");
                 IsReloading = true;
+                m_CurrentAmmo = MaxAmmo;
+                GetComponent<Animator>().SetTrigger("ReloadDone");
+                IsReloading = false;
             }
         }
 

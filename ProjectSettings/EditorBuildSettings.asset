@@ -17,4 +17,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FPS/Scenes/MainScene.unity
     guid: d794a2ef8ba31d847ad3c19d03e2ddb9
+  - enabled: 1
+    path: Assets/FPS/Scenes/Stage2/Park.unity
+    guid: 46c76ea4efc178b489cec1e3b6f176cf
+  - enabled: 1
+    path: Assets/FPS/Scenes/BossLevel.unity
+    guid: fab414e4b98995c4da8d90c8c4dd1ba1
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
