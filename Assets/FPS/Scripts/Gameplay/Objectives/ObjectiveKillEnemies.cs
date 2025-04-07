@@ -15,11 +15,12 @@ namespace Unity.FPS.Gameplay
         public int NotificationEnemiesRemainingThreshold = 3;
 
         int m_KillTotal;
-
+        GameObject gate;
         protected override void Start()
         {
             base.Start();
-
+            gate = GameObject.Find("ObjectiveReachPoint");
+            gate.SetActive(false);
             EventManager.AddListener<EnemyKillEvent>(OnEnemyKilled);
 
             // set a title and description specific for this type of objective, if it hasn't one
@@ -46,7 +47,9 @@ namespace Unity.FPS.Gameplay
             // update the objective text according to how many enemies remain to kill
             if (targetRemaining == 0)
             {
-                CompleteObjective(string.Empty, GetUpdatedCounterAmount(), "Objective complete : " + Title);
+                gate.SetActive(true);
+//                 CompleteObjective(string.Empty, GetUpdatedCounterAmount(), "Objective complete : " + Title);
+
             }
             else if (targetRemaining == 1)
             {
