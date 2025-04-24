@@ -44,6 +44,7 @@ namespace Unity.FPS.Game
 
         public void TakeDamage(float damage, GameObject damageSource)
         {
+            Debug.Log("TakeDamage");
             if (Invincible)
                 return;
 
@@ -57,7 +58,7 @@ namespace Unity.FPS.Game
             {
                 OnDamaged?.Invoke(trueDamageAmount, damageSource);
             }
-
+           // Debug.Log($"{Enemy_TankBoss} took {trueDamageAmount} damage from {damageSource?.name}. Current HP: {CurrentHealth}");
             HandleDeath();
         }
 
