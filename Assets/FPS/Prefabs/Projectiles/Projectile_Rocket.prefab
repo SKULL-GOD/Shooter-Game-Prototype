@@ -105,8 +105,7 @@ MonoBehaviour:
   Root: {fileID: 106790115311484948}
   Tip: {fileID: 106790115311484948}
   MaxLifeTime: 10
-  ImpactVfx: {fileID: 4260779743739990948, guid: d0353d75b50eb7f439ef2f63137acff6,
-    type: 3}
+  ImpactVfx: {fileID: 100004, guid: b46890100828db6429ff69c322b45893, type: 3}
   ImpactVfxLifetime: 5
   ImpactVfxSpawnOffset: 0.1
   ImpactSfxClip: {fileID: 8300000, guid: cba089de3eef16d46baeda4077140a74, type: 3}
@@ -132,7 +131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0244d6b9e98532469c7be0732490a61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AreaOfEffectDistance: 15
+  AreaOfEffectDistance: 6
   DamageRatioOverDistance:
     serializedVersion: 2
     m_Curve:
