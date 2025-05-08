@@ -1567,7 +1567,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5917255261459168744, guid: 7ff14361843237d43afc85e1cb16e295,
         type: 3}
+      propertyPath: MainCanvasGroup
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917255261459168744, guid: 7ff14361843237d43afc85e1cb16e295,
+        type: 3}
       propertyPath: JetpackFillImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5917255261459168744, guid: 7ff14361843237d43afc85e1cb16e295,
+        type: 3}
+      propertyPath: FillBarColorChange
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6688638100022504335, guid: 7ff14361843237d43afc85e1cb16e295,
@@ -1677,8 +1687,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7784911861666327368, guid: 7ff14361843237d43afc85e1cb16e295,
         type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7784911861666327368, guid: 7ff14361843237d43afc85e1cb16e295,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 369
+      value: 216
       objectReference: {fileID: 0}
     - target: {fileID: 8385510227382900224, guid: 7ff14361843237d43afc85e1cb16e295,
         type: 3}
