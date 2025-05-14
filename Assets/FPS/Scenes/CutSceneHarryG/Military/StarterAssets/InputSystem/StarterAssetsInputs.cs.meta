@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2cea3ed587933c443bde8cc923866162
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181470
+  packageName: Survivalist character
+  packageVersion: 1.1
+  assetPath: Assets/Military/StarterAssets/InputSystem/StarterAssetsInputs.cs
+  uploadId: 693203

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f8efcc12f45d2c140a63cef5a041107d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181470
+  packageName: Survivalist character
+  packageVersion: 1.1
+  assetPath: Assets/Military/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs
+  uploadId: 693203

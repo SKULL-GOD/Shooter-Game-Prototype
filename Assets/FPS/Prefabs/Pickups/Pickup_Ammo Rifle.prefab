@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6275561476046798665}
   - component: {fileID: 1918699919489059942}
   - component: {fileID: -1326325098109344618}
+  - component: {fileID: 2698885926769553115}
   m_Layer: 0
   m_Name: Pickup_Ammo Rifle
   m_TagString: Untagged
@@ -143,6 +144,25 @@ MonoBehaviour:
   PickupSfx: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
   PickupVfxPrefab: {fileID: 0}
   Weapon: {fileID: 8323776800172828795, guid: a677cc5a34b871b428a396bdd47ef24e, type: 3}
+  BulletCount: 30
+--- !u!114 &2698885926769553115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2620131183356007192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bb683ec2991b784fa1d1fea214ca53b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VerticalBobFrequency: 1
+  BobbingAmount: 1
+  RotatingSpeed: 360
+  PickupSfx: {fileID: 8300000, guid: 7b83d61917ac1224f942a0609b1221f2, type: 3}
+  PickupVfxPrefab: {fileID: 0}
+  Weapon: {fileID: 8323776800172828795, guid: e9e9f47605c9fdb4c94fe47665f773e7, type: 3}
   BulletCount: 30
 --- !u!1 &7296493021711450243
 GameObject:

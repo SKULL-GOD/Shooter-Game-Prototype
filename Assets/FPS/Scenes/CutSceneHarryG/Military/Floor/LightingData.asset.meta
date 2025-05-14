@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b63d39d11884d5542a9e61007336b106
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 112000000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181470
+  packageName: Survivalist character
+  packageVersion: 1.1
+  assetPath: Assets/Military/Floor/LightingData.asset
+  uploadId: 693203

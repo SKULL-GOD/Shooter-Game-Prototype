@@ -18,10 +18,22 @@ EditorBuildSettings:
     path: Assets/FPS/Scenes/MainScene.unity
     guid: d794a2ef8ba31d847ad3c19d03e2ddb9
   - enabled: 1
-    path: Assets/FPS/Scenes/Stage2/Park.unity
+    path: Assets/FPS/Scenes/Stage2/ParkSAW.unity
     guid: 46c76ea4efc178b489cec1e3b6f176cf
   - enabled: 1
-    path: Assets/FPS/Scenes/Boss/BossLevel.unity
-    guid: fab414e4b98995c4da8d90c8c4dd1ba1
+    path: Assets/FPS/Scenes/Stage2/ParkSpeedHP.unity
+    guid: eebefa06ed0f7ce48bc3dc26e9eada7c
+  - enabled: 1
+    path: Assets/FPS/Scenes/Boss/BossLevelSpeedHPJumpHP.unity
+    guid: 6b7f4a8b5e1d69742ad9c2163f93525d
+  - enabled: 1
+    path: Assets/FPS/Scenes/Boss/BossLevelSpeedHPGoldAR.unity
+    guid: 2eabe279c4386d14798bbaa04b751e8d
+  - enabled: 1
+    path: Assets/FPS/Scenes/Boss/BossLevelSAWHP.unity
+    guid: 8dcf5391a59172f4691e96b9c6e9e4fc
+  - enabled: 1
+    path: Assets/FPS/Scenes/Boss/BossLevelSAWGoldShotgunJump.unity
+    guid: f9dff1c890e7e3c4aae5723241b2af9d
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

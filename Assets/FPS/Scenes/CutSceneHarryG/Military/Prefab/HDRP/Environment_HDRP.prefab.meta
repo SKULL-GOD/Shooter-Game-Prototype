@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b95ac6fd382b11d4b9f30fc6c0c36828
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 181470
+  packageName: Survivalist character
+  packageVersion: 1.1
+  assetPath: Assets/Military/Prefab/HDRP/Environment_HDRP.prefab
+  uploadId: 693203
