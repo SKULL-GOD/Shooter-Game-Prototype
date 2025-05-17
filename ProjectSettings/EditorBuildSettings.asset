@@ -35,5 +35,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FPS/Scenes/Boss/BossLevelSAWGoldShotgunJump.unity
     guid: f9dff1c890e7e3c4aae5723241b2af9d
+  - enabled: 1
+    path: Assets/FPS/Scenes/CutSceneHarryG/Cutscene.unity
+    guid: 485956d5d4de80e488932ee98515db5b
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

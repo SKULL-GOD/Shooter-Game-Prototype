@@ -3278,7 +3278,7 @@ PrefabInstance:
     - target: {fileID: 2707800222142829387, guid: d401b602eddc4e449b385a053f012a4c,
         type: 3}
       propertyPath: m_Name
-      value: ObjectiveReachPoint (1)
+      value: ObjectiveReachPointTwo
       objectReference: {fileID: 0}
     - target: {fileID: 2707800222142829391, guid: d401b602eddc4e449b385a053f012a4c,
         type: 3}
@@ -3898,6 +3898,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ObjectiveKillEnemies
+      objectReference: {fileID: 0}
+    - target: {fileID: 598277302063295019, guid: 012d63212fd1fe646b661cb8446c7bd4,
+        type: 3}
+      propertyPath: KillsToCompleteObjective
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 598277302063295029, guid: 012d63212fd1fe646b661cb8446c7bd4,
         type: 3}

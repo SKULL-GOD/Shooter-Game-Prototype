@@ -16,11 +16,14 @@ namespace Unity.FPS.Gameplay
 
         int m_KillTotal;
         GameObject gate;
+        GameObject gateTwo;
         protected override void Start()
         {
             base.Start();
             gate = GameObject.Find("ObjectiveReachPoint");
+            gateTwo = GameObject.Find("ObjectiveReachPointTwo");
             gate.SetActive(false);
+            gateTwo.SetActive(false);
             EventManager.AddListener<EnemyKillEvent>(OnEnemyKilled);
 
             // set a title and description specific for this type of objective, if it hasn't one
@@ -48,7 +51,8 @@ namespace Unity.FPS.Gameplay
             if (targetRemaining == 0)
             {
                 gate.SetActive(true);
-//                 CompleteObjective(string.Empty, GetUpdatedCounterAmount(), "Objective complete : " + Title);
+                gateTwo.SetActive(true);
+                //                 CompleteObjective(string.Empty, GetUpdatedCounterAmount(), "Objective complete : " + Title);
 
             }
             else if (targetRemaining == 1)
